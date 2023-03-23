@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,800&family=Roboto:ital,wght@1,300&family=Rubik:wght@300&display=swap');
+
+.roboto, .nomes{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(fundo.png) repeat-x;
+}
+
+#container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#topo{
+    background: url(detalhe-topo.png) no-repeat right top;
+    height: 190px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(logo.png) no-repeat center;
+    margin-top: 10px;
+    text-indent: -3000px;
+}
+
+
+#topo ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 40px 0 0;
+    background: #b10333;
+    height: 40px;
+    align-items: center;
+}
+
+
+#topo li{
+    list-style: none;
+}
+
+#topo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+
+#topo a:hover{
+    color: #b10333;
+    background-color: #fff; 
+}
+
+
+/* CONTEUDO */
+
+
+
+
+#conteudo{
+    display: flex;
+    margin-top: 39px; 
+    width: 100%; 
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+h2{
+    background-color: #b10333;
+    color: #fff; 
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+.image{
+    width: 95%;
+    border: 1px rgb(121, 113, 113) solid;
+    display: block;
+    margin-top: 5px;
+    
+}
+
+span{
+    background-color: #b10333;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+
+
+/* INICIO NAVEGACAO */
+
+#navegacao{
+    background: url(fundo-caixa.png);
+    width: 180px;
+    padding: 10px 10px;
+    
+}
+
+#navegacao a{
+    text-decoration: none;
+}
+
+#navegacao ul{
+    background-color: #fff;
+}
+
+#navegacao ul li{
+    list-style: none;
+    padding: 8px 15px;
+    transition: all 0.2s;
+}
+
+#navegacao li:hover{
+    background: url(marcador.png) no-repeat left center;
+    padding: 8px 25px;
+
+}
+
+#navegacao a:hover{
+    text-decoration: underline;
+}
+
+#navegacao-dois{
+    margin-top: 10px;
+}
+
+form{
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 145px;
+    border-radius: 3px;
+    opacity: 0.4;
+    padding: 3px;
+}
+
+button{
+    background-color: #b10333;
+    border: 1px solid #b10333;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*  FIM DE NAVEGACAO*/
+
+
+
+
+/* CONTEUDO NEWS PRINCIPAL*/
+
+#news-principal{
+    background: url(fundo-caixa.png);
+    width: 350px;
+    padding: 10px 10px;
+    
+}
+
+.principal{
+    background-color: #fff;   
+}
+
+.principal a{
+    text-decoration: none;
+    color: #b10333;
+}
+
+.principal a:hover{
+    text-decoration: underline;
+}
+
+.noticia{
+    padding: 0 10px;
+}
+
+#news-secundaria{
+    background: url(fundo-caixa.png);
+    margin-top: 10px;
+}
+
+
+/* FIM CONTEUDO NEWS PRINCIPAL */
+
+
+/* CONTEUDO NEWS 2 */
+
+#principal-secundaria{
+    background: url(fundo-caixa.png);
+    width: 350px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.secundaria{
+    background-color: #fff;
+}
+
+.secundaria-interno{
+    padding: 0 10px;
+}
+
+.secundaria-interno a{
+    color: #b10333;
+    text-decoration: none;
+}
+
+.secundaria-interno a:hover{
+    text-decoration: underline;
+}
+
+
+/* LATERAL */
+
+
+#lateral-news{
+    background: url(fundo-caixa.png);
+    width: 350px;
+    padding: 10px 10px;
+   
+}
+
+#lateral-interior{
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+
+/* LATERAL DOIS */
+
+#lateral-dois{
+    background: url(fundo-caixa.png);
+    width: 350px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+#lateral-interior-dois{
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+/* Ultimas noticias */
+
+#breve-noticia{
+    background: url(fundo-caixa.png);
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 350px;
+}
+
+.img-breve {
+    width: 30%;
+}
+
+#breve-interno{
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+#breve-interno p{
+    float: right;
+}
+}
+
+
